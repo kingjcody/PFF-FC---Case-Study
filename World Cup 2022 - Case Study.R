@@ -34,11 +34,11 @@ library(httr)
 
 ## Load Files ##
 file_paths <- c(
-  "C:/Users/cking/OneDrive - Tennessee Titans/Documents/Cody King/PFF/competitions.csv",
-  "C:/Users/cking/OneDrive - Tennessee Titans/Documents/Cody King/PFF/players.csv",
-  "C:/Users/cking/OneDrive - Tennessee Titans/Documents/Cody King/PFF/metadata.csv",
-  "C:/Users/cking/OneDrive - Tennessee Titans/Documents/Cody King/PFF/events.json",
-  "C:/Users/cking/OneDrive - Tennessee Titans/Documents/Cody King/PFF/rosters.csv"
+  "C:/Users/cking/OneDrive/Documents/Cody King/PFF/competitions.csv",
+  "C:/Users/cking/OneDrive/Documents/Cody King/PFF/players.csv",
+  "C:/Users/cking/OneDrive/Documents/Cody King/PFF/metadata.csv",
+  "C:/Users/cking/OneDrive/Documents/Cody King/PFF/events.json",
+  "C:/Users/cking/OneDrive/Documents/Cody King/PFF/rosters.csv"
 )
 
 # Loop to load files
@@ -241,7 +241,7 @@ base_url <- "https://static.wikia.nocookie.net"
 logos <- ifelse(grepl("^http", logos), logos, paste0(base_url, logos))
 
 # Folder where the images will be stored
-image_folder <- "C:/Users/cking/OneDrive - Tennessee Titans/Documents/Cody King/PFF/PFF - Logos/"
+image_folder <- "C:/Users/cking/OneDrive/Documents/Cody King/PFF/PFF - Logos/"
 
 
 # Download the images
